@@ -1,0 +1,38 @@
+{
+    "name": "amenophis1er/yii2-datatables",
+    "description": "A Yii2 extension for DataTables with server-side processing.",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "keywords": [
+        "yii2",
+        "datatables",
+        "extension"
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4.0",
+        "datatables/datatables": "^1.10",
+        "yiisoft/yii2": "~2.0.45"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "amenophis1er\\yii2datatables\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "amenophis1er\\yii2datatables\\DatatablesBootstrap"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
