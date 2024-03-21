@@ -13,7 +13,8 @@
     "require": {
         "php": ">=7.4.0",
         "datatables/datatables": "^1.10",
-        "yiisoft/yii2": "~2.0.45"
+        "yiisoft/yii2": "~2.0.45",
+        "opis/closure": "^3.6"
     },
     "require-dev": {},
     "autoload": {
